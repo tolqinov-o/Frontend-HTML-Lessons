@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>4 - HTML Dars || T.Oqilbek</title>
+    </head>
+    <body>
+        <h1 align="center">Jadvallar</h1> 
+        <hr> <br> <br>
+
+        <!-- 
+                "table" - jadval yaratuvchi teg. Bu teg orqali jadval yaratilishi boshlanadi.
+                "thead" - jadvallarning yuqori qatorlaridan bir yoki bir nechtasini saqlash uchun
+            ishlatiladi.
+                "tr" - jadval qatorini yaratadi. Har bir qator shu teg orqali yaratiladi.
+                "th" - jadvalning eng yuqori yacheykalari, ya'ni ustunga tegishli zagolovkalarni
+            yaratadi.
+                "tbody" - jadvaldagi asosiy ma'lumotlar joylashgan qatorlarni guruhlash uchun
+            ishlatiladi.
+                "td" - jadvalda bitta yacheyka hosil qilish uchun ishlatiladi.
+                "tfoot" - jadval qaysi qismidagi bir yoki bir necha qatorlarni guruhlash uchun
+            ishlatiladi.    
+         -->
+        <table border="3" width="50%" align="center" background="https://cdn.pixabay.com/photo/2022/10/03/21/47/fog-7496901_1280.jpg">
+            <thead bgcolor="green">
+                <tr>
+                    <th>Raqami</th>
+                    <th>Ismi</th>
+                    <th>Bahosi</th>
+                    <th>Kasbi</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Domenic</td>
+                    <td>70+</td>
+                    <td>Developer</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Sally</td>
+                    <td>40+</td>
+                    <td>Fermer</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Nick</td>
+                    <td>765+</td>
+                    <td>Barber</td>
+                </tr>
+            </tbody>
+        </table> <br> <br>
+        <hr>
+
+        <h1 align="center">Fo'rmalar</h1>
+
+        <!-- 
+            "form" - veb sahifaga forma joylashtirish, forma foydalanuvchi va veb server bilan aloqani ta'minlab beradi,
+            Agar fo'rma elementlari kiritilmasa bu teg brauzerga hech nima chiqarmaydi.
+
+            "input" - bu teg orqali fo'rma elementlarini yaratish mumkin, ya'ni forma asosi hisoblanadi, Attributlari:
+                "type" - fo'rma elementi turi, bu attribut xar hil ko'rinishdagi elementlar hosil qilib beradi.
+         -->
+        <form action="#" width="100%" height="400px" align="center">
+            <h4>Ro'yxatdan o'tish</h4>
+            <input type="text" placeholder="Ismingizni kiriting" required>
+            <input type="password" placeholder="Parolingizni kiriting" required> <br> <br>
+            <button type="submit">Kirish</button>
+        </form>
+    </body>
+</html>
