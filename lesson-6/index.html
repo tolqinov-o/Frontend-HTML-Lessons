@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>6 - HTML Dars || T.Oqilbek</title>
+    </head>
+        <!-- 
+            "frameset" - yaratilayotgan freym strukturasini hosil qiluvchi teg. Attributlari:
+
+            "border" - freymlar oralig'idagi chegaralar qalinligi;
+            "bordercolor" - freymlar oralig'idagi chegaralar rangi;
+            "cols" - freymlarni ustunlarga bo'lish;
+            "frameborder" - freymlar orasidagi ramka qo'yish kerak yoki
+            qo'yish kerakmasligini aniqlash. Qiymatlari: no, yes;
+            "rows" - qator ko'rinishidagi freymlar hosil qilish va o'lchamini berish.
+        -->
+
+        <!-- 
+            "frame" - har bir alohida freymni sozlash, bu teg nechta bo'lsa shuncha veb 
+            sahifa bitta qo'shilayotgan bo'ladi. Attributlari:
+
+            "bordercolor" - chegara rangini berish;
+            "frameborder" - cheagara beradi;
+            "name" - freym uchun takrorlanmas nom berish;
+            "noresize" - foydalanuchu tomonidan freym o'lchamini o'zgartirish mumkin emas;
+            "scrolling" - freymlar ekranga sig'masa paydo bo'ladigan aylantirgich
+             holatini o'rnatish. Qiymatlari:
+                "auto" - kerak bo'lsa brauzer tomonidan aylantirgich hosil qiladi;
+                "no" - aylatirgich hosil bo'lmaydi;
+                "yes" - sig'sa ham sig'masa ham aylantirgich hosil bo'ladi;
+            
+            "src" - freym sahifasi adressini veb sahifani qo'shishini ko'rsatadi;    
+        -->
+
+        <!-- 
+            "noframes" - agar brauzer tommonidan freymlar ishlatilishiga blok qo'yilgan 
+            bo'lsa, yoki brauzer freym tushunchasini bilmasa bu teg ichidagi yozuv brauzerga
+            chiqadi.
+        -->
+    
+    <frameset border="3" bordercolor="black" rows="15%,70%,15%">
+            <frame src="frame.html">
+                <frameset cols="20%,75%,20%">
+                    <frame src="menu.html">
+                    <frame src="content.html" name="main">    
+                    <frame src="panel.html">    
+                </frameset>
+            <frame src="footer.html"> 
+                <noframes>Sizning brauzeringiz frame tushunchasini tanimaydi.</noframes>   
+    </frameset>
+</html>
