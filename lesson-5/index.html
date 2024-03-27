@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>5 - HTML Dars || T.Oqilbek</title>
+    </head>
+    <body>
+        <h1 align="center">Formalar bilan ishlash 2 qism</h1>
+        <hr> <br>
+
+    <!-- "type" - attributining qiymatlari:
+        
+        "button" - tugma hosil qilish uchun;
+        "checkbox" - bir nechta tanlovni oshirib beruvchi bayroqcha hosil qilish;
+        "file" - serverga jo'natiladigan fayl adressini kiritish, fayl elementi;
+        "hidden" - ko'rinmas element, sahifada ko'rinmaydi;
+        "image" - rasmli qator, rasmlarni bosilganda, axborotlarni serverga jo'natadi;
+        "password" - oddiy matnli element, lekin yozuvlar ko'rinnmaydi, parol yozish uchun;
+        "radio" - bir nechta tanlovlardan faqat bittasini tanlash imkonini beruvchi element;
+        "reset" - fo'rma elementlarini dastlabki holatga keltiradi.;
+        "submit" - fo'rmadagi axborotlarni serverga jo'natadi; 
+        "text" - oddiy matn kiritish elementi;
+    -->
+
+    <!-- 
+        "fieldset" - formadagi bir nechta elementlarni guruhlash uchun ishlatiladi. Guruhlangan elementlar chiziq bilan
+        chegaralanadi. Attributlari:
+
+        "disabled" - guruhning barcha elementlarini bloklash;
+        "form" - boshqa formalar bilan bog'lanish;
+        "title" - formadagi guruhga yordam sifatida yozuv chiqarish
+     -->
+    
+        <fieldset title="guruh">
+            <form action="#">
+                <input type="text" name="text" id="text" placeholder="Ismingizni kiriting..." required>
+                <input type="password" name="password" id="password" placeholder="Parolingizni kiriting..." required> <br> <br>
+                <input type="email" name="email" id="email" placeholder="Email pochtangizni kiriting..." required>
+                <input type="number" name="number" id="number" placeholder="Raqamingizni kiriting..." required>
+    
+                <p>Jinsingizni tanlang:</p>
+                <label for="male">Erkak</label>
+                <input type="radio" name="radio" id="male" value="Erkak" required>
+                <label for="female">Ayol</label>
+                <input type="radio" name="radio" id="female" value="Ayol" required> <br> <br>
+    
+                <input type="checkbox" name="tanlash" id="true" required>
+                <label for="true">Men hamma buyruqlarni bajardim</label> <br> <br>
+    
+                <button type="submit">Yuborish</button>
+            </form>
+        </fieldset> <br> <br>
+        <hr> <br>
+
+        <!-- 
+            "textarea" - forma elementi bo'lib, katta hajimdagi matnlarni kiritish 
+            uchun ishlatiladi. Attributlari:
+
+            "accesskey" - klaviatura tugmalari orqali tez o'tishni amalga oshiradi;
+            "cols" - matn yozish uchun ajratilgan;
+            "disabled" - elementni blokirivka qilish;
+            "form" - boshqa forma bilan identificator orqali bog'lanishni amalga oshiradi;
+            "maxlength" - foydalanuvchi tomonidan kiritilishi mumkin bo'lgan maksimal simvollar soni;
+            "name" - elementning nomi;
+            "readonly" - element ichidagi yozuvni faqat o'qish mumkin bo'lgan holatga keltirish;
+            "rows" - matn yozish uchun ajratilgan joy balandligi;
+            "tabindex" - klavituradan nechamarotaba tab bosilsa, shu elementga o'tish;
+
+            "wrap" - yozilgan matni keyingi qatorga o'tkazish. Uning qiymatlari:
+
+            "soft" - matn uzunligi bitta qatorga sig'masa avtomat keyingi qatorga o'tadi;
+            "hard" - cols berilgan qiymatdan so'ng uzun matnlar keyingi qatorga o'tadi;
+            "off" - matn uzunligi tugamagunicha birinchi qator ham tugamaydi;
+         -->
+        <h2>O'z javobingizni qoldiring:</h2>
+        <form action="#">
+            <textarea name="answer" id="answer" cols="100" rows="20" placeholder="Bu mahsulot menga judayam qulay bo'ldi"></textarea> <br> <br>
+            <button type="submit">Yuborish</button>
+        </form>
+    </body>
+</html>
