@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>7 - HTML Dars || T.Oqilbek</title>
+
+        <!-- "META" - qidiruv tizimlari va brauzerlar uchun, saytning asosiy qismi
+            bu - meta teglaridir. Attributlari:
+            
+            "content" - bu attribut boshqaning qiymatini berish uchun ishlatiladi;
+            "name" - saytning ma'nosini ochib berish uchun ishlatiladi. Qiymatlari:
+
+            "author" - sayt egasi nomi;
+            "description" - sayt haqida tushuncha. limit 200;
+            "keywords" - saytga tegishli kalit so'zlar. limit 1000;
+        -->
+
+        <meta name="author" content="T.Oqilbek" charset="UTF8">
+
+        <!-- "META"ning attributlari:
+
+            "http-equiv" - http orqali so'rovlarni qayta ishlash. Name bilan ishlatilmaydi. Content bilan ishlatiladi.
+            "content-Type" - hujjatni tip va kodirovkasini o'rnatish;
+            "expires" - hujjatning eskirish paytini o'rnatish, ko'rsatilgan vaqtdan so'ng eskiradi;
+            "pragma" - hujjatni kesh xotiraga olishni o'rnatish;
+            "refresh" - hujjat ochilgan brauzer sahifasida boshqa hujjat ochish;
+        -->
+
+        <link rel="icon" href="icon.png" sizes="48*48" type="image/png">
+
+        <!-- 
+            "link" - tashqi muhitda joylashgan fayllarni, veb sahifaga ulash uchun
+            ishlatiladi. Odatda har xil turdagi stil, shrift fayllari sahifaga qo'shiladi. Attributlari:
+
+            "charset" - kiritilayotgan fayl kodirovkasi;
+            "href" - ulanayotgan fayl adresi, to'liq ko'rsatilishi lozim;
+            "type" - brauzerga qanday tipdagi fayl qo'shilayotganini bildirish;
+            "rel" - veb sahifa bilan qo'shilayotgan fayl o'rtasida aloqa o'rnatib beradi. Qiymatlari:
+
+            "stylesheet" - stillarni qo'shish;
+            "alternate" - odatda XML fayllar qo'shish uchun
+            "MIME" - MIME tiplari kiritilishi mumkin(ico, jpg, png)
+         -->
+
+         <base href="img/" target="_blank">
+
+         <!-- 
+            "base" - adreslar kiritilishda har safar to'liq adreslarni yozib o'tirmasdan, "head" ichida uchbu
+            teg ichida bir marotaba adres kiritilb qo'yilsa, qolgan joylarda faqat fayl nomi kiritiladi. Attributlari:
+
+            "href" - to'liq adres.
+            "target" - havola hosil qilinganda, har safar qanday ochilishini havola ichida
+            berib o'tirmasdan, bitta shu attributa beriladi va hammasi shu yerdan qiymatni olib ishlatiladi,
+            Bu attribut qiymatlari - "a" - tegidagi - "target" - attributi bilan bir xil: _blank, _self;
+        -->
+
+        <basefont color="green" size="5" face="Monoscape">
+            
+        <!-- 
+            "basefont" - koddagi yozuvlarni bir xil yozilshni ta'minlaydi,
+            asosiy kamchiligi faqat IE (Internet Explorer) brauzerida ishlaydi.
+        -->
+
+        <bgsound src="music.mp3" volume="-1000" loop="3">
+
+        <!-- 
+            "bgsound" - veb sahifada musiqa yangrashini ta'minlab beradi.
+            Faqat IE va OPERA brauzerida ishlaydi. Attributlari:
+
+            "balance" - ikki kolonkadan ovoz bir xil chiqishini ta'minlaydi;
+            "loop" - musiqa faylini necha marotaba ko'rsatish;
+            "src" - musiqiy fayl adresi;
+            "volume" - musiqaning balandligi;
+         -->
+    </head>
+    <body>
+
+        <img src="img.jpg" alt="..." width="60%"> <br> 
+
+        <a href="https://picsum.photos/1024/835?random=1">Rasmni ko'rish</a>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        
+    </body>
+</html>
