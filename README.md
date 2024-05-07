@@ -1,3 +1,4 @@
+![Frontend-HTML-Lessons](./lesson-1/img/html-gif.gif)
 # Frontend-HTML-Lessons
 My_Frontend || Hyper-Text-Markup-Language || 10 - Lessons
 
