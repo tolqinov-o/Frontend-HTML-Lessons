@@ -1,4 +1,4 @@
-<img style="width: 100%;" src="./lesson-1/img/html-gif.gif" alt="Frontend-HTML-Lessons" />
+<img width="100%" src="./lesson-1/img/html-gif.gif" alt="Frontend-HTML-Lessons" />
 
 # Frontend-HTML-Lessons
 My_Frontend || Hyper-Text-Markup-Language || 10 - Lessons
